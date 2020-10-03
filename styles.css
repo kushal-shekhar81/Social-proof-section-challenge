@@ -1,0 +1,56 @@
+body {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+}
+  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.top-row-1 {
+    text-align: center;
+    
+}
+
+.heading {
+    margin: 75px 25px 25px 20px;
+}
+
+.header-text {
+    margin: 25px 25px 50px 20px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 1200px) {
+    .top-row-1 {
+        display: flex;
+    }
+
+    .col-1 {
+        width: 40vw;
+        text-align: left;
+    }
+
+    .heading {
+        margin-bottom: 0px;
+        width: 20vw;
+    }
+}
+
+
+
