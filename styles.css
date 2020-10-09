@@ -7,20 +7,15 @@ body {
 
 h1 {
     color: hsl(300, 43%, 22%);
+    font-weight: 700;
+
 }
 
 p {
-    color: hsl(303, 10%, 53%);
+    color: hsl(300, 43%, 22%);
 }
   
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 45px;
-}
 
 .top-row-1 {
     text-align: center;
@@ -34,6 +29,7 @@ p {
 .header-text {
     margin: 25px 25px 50px 20px;
     line-height: 1.5;
+    color: hsl(300, 43%, 22%);
 }
 
 @media only screen and (min-width: 1200px) {
